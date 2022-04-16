@@ -123,9 +123,9 @@ async def alive_function(answers):
 
     msg = f"""
 **[Lovely Robot ❤️](https://t.me/Blaze_Support):**
-**اصدار :** `{bot_state}`
-**اصدار:** `{ubot_state}`
-**اصدار بايثون:** `{pyver.split()[0]}`
+**MainBot :** `{bot_state}`
+**UserBot:** `{ubot_state}`
+**Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
