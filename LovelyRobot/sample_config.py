@@ -17,14 +17,14 @@ class Config(object):
     API_ID = 123456  # integer value, dont use ""
     API_HASH = "awoo"
     TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2091736526  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "log_afk"
+    OWNER_ID = 5366319452  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "MR_X_N"
     SUPPORT_CHAT = "Blaze_support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001577398383
+        -1001428635331
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001428635331
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
