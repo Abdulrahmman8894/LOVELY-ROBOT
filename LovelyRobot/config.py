@@ -14,11 +14,11 @@ class Config(object):
     API_ID = "FILL API ID "  # integer value, dont use ""
     API_HASH = "FIL API HASH"
     TOKEN = "BOT_TOKEN"
-    OWNER_ID = 2091736526  
-    OWNER_USERNAME = "log_afk"
-    SUPPORT_CHAT = 'Blaze_Support'
-    JOIN_LOGGER = -1001577398383
-    EVENT_LOGS = -1001577398383
+    OWNER_ID = 5366319452  
+    OWNER_USERNAME = "MR_X_N"
+    SUPPORT_CHAT = 'MR_X_8'
+    JOIN_LOGGER = -1001428635331
+    EVENT_LOGS = -1001428635331
 
     ALLOW_CHATS = "True"
     SQLALCHEMY_DATABASE_URI = 'ELEPHAT OR HEROKU DB URL'  
@@ -29,7 +29,7 @@ class Config(object):
     URL = None
     SPAMWATCH_API = ""  
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "1975455092"
+    BOT_ID = "5315266135"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
