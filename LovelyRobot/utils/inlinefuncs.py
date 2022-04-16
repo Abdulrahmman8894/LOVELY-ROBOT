@@ -123,9 +123,9 @@ async def alive_function(answers):
 
     msg = f"""
 **[Lovely Robot ❤️](https://t.me/Blaze_Support):**
-**MainBot:** `{bot_state}`
-**UserBot:** `{ubot_state}`
-**Python:** `{pyver.split()[0]}`
+**اصدار :** `{bot_state}`
+**اصدار:** `{ubot_state}`
+**اصدار بايثون:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
@@ -134,7 +134,7 @@ async def alive_function(answers):
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
-            description="Check Bot's Stats",
+            description="تحقق من إحصائيات البوت",
             thumb_url="https://telegra.ph/file/1b8f08dba704a5eb2bb09.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
